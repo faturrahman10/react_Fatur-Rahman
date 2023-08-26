@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.header .headerLeft p {
+    font-size: px;
+    font-weight: 500;
+    color: #000;
+}
+
+.header .headerRight ul {
+    display: flex;
+    align-items: center;
+}
+
+.header .headerRight ul li {
+    list-style: none;
+    padding: 12px 16px;
+    margin-left: 8px;
+    border-radius: 4px;
+}
+
+.header .headerRight ul .home {
+    background-color: #0D6EFD;
+}
+
+.header .headerRight ul li a {
+    text-decoration: none;
+    color: #0D6EFD;
+}
+
+.header .headerRight ul .home a {
+    color: #fff;
+}
+
+.hero {
+    padding: 80px 80px 80px;
+    height: 100vh;
+    background-color: #37517E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .heroLeft {
+    width: 615px;
+    padding: 80px 0 0;
+}
+
+.hero .heroLeft .heroText .mainText{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px
+}
+
+.hero .heroLeft .heroText .secondText {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+}
+
+.hero .heroLeft .heroButton {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.hero .heroLeft .heroButton .buttonStart {
+    outline: none;
+    border: none;
+    background-color: #47B2E4;
+    padding: 9px 28px 12px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.hero .heroLeft .heroButton .buttonStart a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.hero .heroLeft .heroButton .buttonWatch {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 9px 28px 12px;
+}
+
+.hero .heroLeft .heroButton .buttonWatch a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.hero .heroRight {
+    padding: 80px 0 0
+}
+
+.hero .heroRight img {
+    max-width: 100%;
+    height: auto;
+}
+
+.joinNewsletter {
+    background-color: #F3F5FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.joinNewsletter .joinMainText {
+    color: #37517E;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.joinNewsletter .joinSecondText {
+    color: #444;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    margin-bottom: 30px;
+}
+
+.joinNewsletter form {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 0 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+    box-shadow: 0 0 1px #a0a0a0;
+}
+
+.joinNewsletter form input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 83%;
+}
+
+.joinNewsletter form button {
+    outline: none;
+    border: none;
+    width: 17%;
+    padding: 5px ;
+    background-color: #47B2E4;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer .topFooter {
+    display: flex;
+    padding: 50px;
+}
+
+.footer .topFooter .footerContent {
+    flex: 1;
+}
+
+.footer .topFooter .footerContent .topicFooter {
+    color: #37517E;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+}
+
+.footer .topFooter .footer1 .top {
+    margin-bottom: 30px;
+}
+
+.footer .topFooter .footerContent .topicContent {
+    padding: 4px;
+    color: #5E5E5E;
+}
+
+.footer .topFooter .footerContent ul li {
+    list-style: none;
+    color: #5E5E5E;
+    padding: 4px;
+}
+
+.footer .topFooter .footer1 .top .topicFooter {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.footer .topFooter .footer1 .bottom span {
+    font-weight: 600;
+    color: #5E5E5E;
+}
+
+.footer .bottomFooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #37517E;
+}
+
+.footer .bottomFooter .bottomFooterContent {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.footer .bottomFooter .bottomFooterLeft span {
+    font-weight: 600;
+}
+
+.footer .bottomFooter .bottomFooterRight span {
+    color: #47B2E4;
+}
