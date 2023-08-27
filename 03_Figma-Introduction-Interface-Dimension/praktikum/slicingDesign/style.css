@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.headerContainer {
+    width: 100%;
+    padding: 40px 40px 0;
+    background-color: #fff;
+}
+
+.header {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4593FF;
+    border-radius: 10px;
+}
+
+.header .navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.header .navbar ul li {
+    padding: 10px 0;
+    margin: 0 35px;
+}
+
+.header .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.header .auth button {
+    border: none;
+    outline: none;
+}
+
+.header .auth .login {
+    color: #fff;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.header .auth .signup {
+    color: #4593FF;
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 17px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    margin: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .heroContent {
+    width: 50%;
+}
+
+.hero .heroLeft {
+    margin-right: 10px;
+}
+
+.hero .heroLeft .mainText {
+    color: #3B4053;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.hero .heroLeft .secondText {
+    margin-bottom: 30px;
+}
+
+.hero .heroLeft .secondText p {
+    color: #3B4053;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.hero .heroLeft .secondText .firstSecondText {
+    margin-bottom: 20px;
+}
+
+.hero .heroLeft .heroButton button {
+    padding: 10px;
+    background-color: #4593FF;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero .heroRight {
+    margin-left: 10px;
+}
+
+.hero .heroRight img {
+    margin-top: -30px;
+    max-width: 100%;
+    height: auto;
+}
+
+.cards {
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards .card {
+    width: 400px;
+    height: 300px;
+    background-color: #F8FBFF;
+    border-radius: 10px;
+    padding: 35px 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards .card .cardTopic {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    height: 15%;
+}
+
+.cards .card .cardDetails {
+    height: 50%;
+    width: 100%;
+    color: #3B4053;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.cards .card .cardButton button {
+    padding: 10px;
+    background-color: #4593FF;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.cards .card2 .cardDetails .dayHour {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.doctors {
+    margin: 20px 40px;
+}
+
+.doctors .topic p {
+    color: #3B4053;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.doctors .doctorsCard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.doctors .doctorsCard .card {
+    width: 427px;
+    height: 190px;
+    border-radius: 10px;
+    padding: 40px;
+    background-color: #F8FBFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.doctors .doctorsCard .card1 .circle {
+    background-image: url("img/doctor1.jpg");
+}
+.doctors .doctorsCard .card2 .circle {
+    background-image: url("img/doctor2.jpg");
+}
+.doctors .doctorsCard .card3 .circle {
+    background-image: url("img/doctor3.jpg");
+}
+
+.doctors .doctorsCard .card .circle {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.doctors .doctorsCard .card .cardInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctors .doctorsCard .card .cardInfo p {
+    margin-bottom: 10px;
+    color: #3B4053;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.doctors .doctorsCard .card .cardInfo button {
+    padding: 10px;
+    background-color: #3B4053;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer {
+    margin: 20px 40px;
+    display: flex;
+}
+
+.footer .footerContent {
+    margin-right: 200px;
+}
+
+.footer .footerContent .footerTopic {
+    color:#3B4053;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.footer .footerContent .footerDetails ul li {
+    list-style: none;
+    margin-bottom: 5px;
+    color: #3B4053;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.footer .footerContent .footerDetails button {
+    padding: 20px 40px;
+    background-color: #4593FF;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
