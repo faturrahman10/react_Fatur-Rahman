@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #3f3f46;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav .container .logo .navbar-brand {
+    font-weight: bold;
+    color: #fff;
+}
+
+nav .container .logo .navbar-brand span {
+    color: #4ade80;
+}
+
+nav .container .collapse ul li a {
+    font-weight: 500 !important;
+}
+
+nav .container .collapse ul li a:hover {
+    color: #4ade80 !important;
+}
+
+.hero {
+    margin-bottom: 20px;
+}
+
+.hero .heroLeft .mainText span {
+    color: #4ade80;
+}
+
+.contactUs {
+    margin-bottom: 20px;
+}
+
+.contactUs .contactRight form div input {
+    width: 70% !important;
+    padding: 10px !important;
+    outline: none !important;
+    border: 3px solid #4ade80;
+    background-color: transparent;
+    color: white;
+}
+
+.contactUs .contactRight form div input:hover {
+    border: 3px solid #22c55e;
+}
+
+.contactUs .contactRight form textarea {
+    width: 70% !important;
+    height: 90px;
+    padding: 10px;
+    background-color: transparent !important;
+    outline: none !important;
+    border: 3px solid #4ade80;
+    color: #fff;
+}
+
+.contactUs .contactRight form textarea:hover {
+    border: 3px solid #22c55e;
+}
+
+.contactUs .contactRight form button {
+    background-color: #4ade80;
+    color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+}
+
+.contactUs .contactRight form button:hover {
+    background-color: #22c55e;
+}
+
+.footerContainer {
+    background-color: #4ade80;
+}
+
+.footer {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer .logo p span {
+    color: #3f3f46;
+}
+
+.footer .socialMedia div a {
+    text-decoration: none;
+}
+
+@media (max-width: 576px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero .heroLeft {
+        width: 80% !important;
+        order: 2;
+    }
+
+    .hero .heroRight {
+        width: 80% !important;
+        order: 1;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 0 55px;
+    }
+
+    .footer .logo {
+        margin-bottom: 20px;
+    }
+    .footer .socialMedia {
+        margin-bottom: 40px;
+    }
+    .footer .phone {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 481px) {
+    .contactUs .contactLeft {
+        display: none;
+    }
+
+    .contactUs .contactRight {
+        width: 100% !important;
+    }
+
+    .contactUs .contactRight form div input {
+        width: 88% !important;
+    }
+
+    .contactUs .contactRight form textarea {
+        width: 88% !important;
+    }
+}
