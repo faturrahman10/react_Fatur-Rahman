@@ -117,8 +117,9 @@ const CreateProduct = () => {
               <thead>
                 <tr className="bg-gray-200">
                   <th className="px-4 py-2">ID</th>
-                  <th className="px-4 py-2">Nama Produk</th>
-                  <th className="px-4 py-2">Kategori</th>
+                  <th className="px-4 py-2">Product Name</th>
+                  <th className="px-4 py-2">Product Category</th>
+                  <th className="px-4 py-2">Product Freshness</th>
                   <th className="px-4 py-2">Harga</th>
                 </tr>
               </thead>
@@ -128,6 +129,7 @@ const CreateProduct = () => {
                     <td className="border px-4 py-2 text-center">{product.id}</td>
                     <td className="border px-4 py-2">{product.productName}</td>
                     <td className="border px-4 py-2">{product.productCategory}</td>
+                    <td className="border px-4 py-2">{product.productFreshness}</td>
                     <td className="border px-4 py-2">{product.price}</td>
                   </tr>
                 ))}
