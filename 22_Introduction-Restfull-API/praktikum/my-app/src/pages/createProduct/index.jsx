@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
 import article from '../../data/article';
 
@@ -94,11 +94,11 @@ const CreateProduct = () => {
             </div>
             <div className='mb-10'>
               <div className='mb-1'>
-                <label htmlFor='productName'>Product Name</label>
+                <label htmlFor='price'>Product Price</label>
               </div>
               <input 
                 type='text'
-                id='productName'
+                id='price'
                 className='w-full h-10 border-2 border-slate-300 rounded-md focus:outline-none'
               />
             </div>
