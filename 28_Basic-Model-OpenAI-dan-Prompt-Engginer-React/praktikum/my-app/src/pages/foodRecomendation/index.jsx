@@ -46,7 +46,7 @@ const FoodRecommendationPage = () => {
           {loading ? "Sending..." : "Send"}
         </button>
         <div className="mt-4">
-          <strong>Rekomendasi:</strong>
+          <strong className="mb-2">Rekomendasi :</strong>
           <div className="w-full p-2 border border-gray-300 rounded-md focus:outline-none h-40 overflow-y-auto">
             {recommendation}
           </div>
